@@ -10,8 +10,8 @@ import VueAxios from 'vue-axios'
 import vuex from 'vuex'
 import VueCookies from 'vue-cookies'
 
-// import Login from './components/Login'
-// import Home from './components/Home'
+//import Login from './components/Login'
+//import Home from './components/Home'
 
 Vue.config.productionTip = false
 

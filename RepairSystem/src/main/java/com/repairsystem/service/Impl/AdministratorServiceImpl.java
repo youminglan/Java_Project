@@ -66,7 +66,7 @@ public class AdministratorServiceImpl implements AdministratorService {
         }
 
         Example example = new Example(Administrator.class);
-        example.createCriteria().andLike("adminName","%"+name+"%");
+        example.createCriteria().andLike("adminName", "%" + name + "%");
 
         return adminMapper.selectByExample(example);
     }
@@ -75,7 +75,7 @@ public class AdministratorServiceImpl implements AdministratorService {
     @Override
     public Administrator searchAdministratorByPhoneNum(String phoneNum) {
         Example example = new Example(Administrator.class);
-        example.createCriteria().andEqualTo("adminPhone",phoneNum);
+        example.createCriteria().andEqualTo("adminPhone", phoneNum);
         return adminMapper.selectOneByExample(example);
     }
 

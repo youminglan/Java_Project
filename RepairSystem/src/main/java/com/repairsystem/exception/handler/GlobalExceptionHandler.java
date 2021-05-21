@@ -16,7 +16,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(AdministratorIdIsNullException.class)
     @ResponseBody
-    public JsonResult administratorIdIsNullExceptionHandler(){
+    public JsonResult administratorIdIsNullExceptionHandler() {
         return JsonResult.errorMsg("传入的管理员ID为空");
     }
 }

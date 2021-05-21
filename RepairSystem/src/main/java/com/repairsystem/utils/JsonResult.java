@@ -24,7 +24,7 @@ public class JsonResult {
     //响应中的数据
     private Object data;
 
-    public JsonResult(){
+    public JsonResult() {
 
     }
 
@@ -44,28 +44,28 @@ public class JsonResult {
         return new JsonResult(status, msg, data);
     }
 
-    public static JsonResult ok(){
+    public static JsonResult ok() {
         return new JsonResult(null);
     }
 
-    public static JsonResult ok(Object data){
+    public static JsonResult ok(Object data) {
         return new JsonResult(data);
     }
 
-    public static JsonResult errorMsg(String msg){
-        return new JsonResult(500,msg,null);
+    public static JsonResult errorMsg(String msg) {
+        return new JsonResult(500, msg, null);
     }
 
-    public static JsonResult errorMap(Object data){
-        return new JsonResult(501,"BeanError",data);
+    public static JsonResult errorMap(Object data) {
+        return new JsonResult(501, "BeanError", data);
     }
 
-    public static JsonResult errorTokenMsg(String msg){
-        return new JsonResult(502,msg,null);
+    public static JsonResult errorTokenMsg(String msg) {
+        return new JsonResult(502, msg, null);
     }
 
-    public static JsonResult errorException(String msg){
-        return new JsonResult(555,msg,null);
+    public static JsonResult errorException(String msg) {
+        return new JsonResult(555, msg, null);
     }
 
     public Integer getStatus() {

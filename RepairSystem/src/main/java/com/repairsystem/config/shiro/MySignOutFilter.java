@@ -17,13 +17,13 @@ import java.util.Locale;
 public class MySignOutFilter extends LogoutFilter {
     private static final Logger log = LoggerFactory.getLogger(MySignOutFilter.class);
 
-    private RedisTemplate redisTemplate ;
+    private RedisTemplate redisTemplate;
 
-    public MySignOutFilter(){
+    public MySignOutFilter() {
 
     }
 
-    public MySignOutFilter(RedisTemplate redisTemplate){
+    public MySignOutFilter(RedisTemplate redisTemplate) {
         this.redisTemplate = redisTemplate;
     }
 
@@ -45,15 +45,15 @@ public class MySignOutFilter extends LogoutFilter {
         //try/catch added for SHIRO-298:
         try {
 
-          //登出时从session获取的cookieId
-          String cookieId = (String) subject.getSession().getId();
-          System.out.println(cookieId);
-          Cookie[] cookies = ((HttpServletRequest)request).getCookies();
-            for (Cookie cookie:cookies) {
-              //"登出时从cookie获取得到的cookieId
-                if(cookieId.equals(cookie.getName())){
-                  System.out.println(cookie.getValue());
-                  redisTemplate.delete(cookie);
+            //登出时从session获取的cookieId
+            String cookieId = (String) subject.getSession().getId();
+            System.out.println(cookieId);
+            Cookie[] cookies = ((HttpServletRequest) request).getCookies();
+            for (Cookie cookie : cookies) {
+                //"登出时从cookie获取得到的cookieId
+                if (cookieId.equals(cookie.getName())) {
+                    System.out.println(cookie.getValue());
+                    redisTemplate.delete(cookie);
                 }
             }
             subject.logout();

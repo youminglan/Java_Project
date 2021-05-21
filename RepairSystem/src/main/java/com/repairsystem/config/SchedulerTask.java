@@ -20,9 +20,9 @@ public class SchedulerTask {
      * 每天凌晨3点删除生成的QRCode文件
      */
     @Scheduled(cron = "0 0 3 * * ?")
-    private void deleteQRCodeFile(){
-        File file = new File(ConstantUtils.Path.DIRPATH+ConstantUtils.Path.QRCODEPATH);
-        if (file.exists()){
+    private void deleteQRCodeFile() {
+        File file = new File(ConstantUtils.Path.DIRPATH + ConstantUtils.Path.QRCODEPATH);
+        if (file.exists()) {
             try {
                 FileUtils.cleanDirectory(file);
             } catch (IOException e) {

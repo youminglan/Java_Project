@@ -34,7 +34,7 @@ import java.util.List;
 public class Swagger2Config {
 
     @Bean
-    public Docket createRestApi(){
+    public Docket createRestApi() {
         // 为swagger添加header参数可供输入
         ParameterBuilder userTokenHeader = new ParameterBuilder();
         ParameterBuilder userIdHeader = new ParameterBuilder();

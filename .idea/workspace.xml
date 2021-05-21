@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c870cd7-abb4-4500-9ed9-3f288f679e23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JavaEE/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/ArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/ArrayCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/ArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/ArrayReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/ArraySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Boost.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Boost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Break.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Break.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Construction.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Construction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/CopyC.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/CopyC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/CopyRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/CopyRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Daffodil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Daffodil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Debug.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Debug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Double.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Double.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Double1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Double1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/DouleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/DouleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Enum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Enum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Factoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Factoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/GiantGragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/GiantGragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/GoldenRatio.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/GoldenRatio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/HeroInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/HeroInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Hong.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Hong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/IgnoreMultiples.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/IgnoreMultiples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/IsSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/IsSame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/LeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Millionaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Millionaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Override.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Override.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Pakeage.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Pakeage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Poly.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Poly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Private.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Private.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Quote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Quote1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Quote1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Static.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Support.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/TestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/TestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/This.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/This.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/ThisConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/ThisConstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/ThisConstruction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/ThisConstruction1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/TwoDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/TwoDimensionalArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/Wenpon.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/Wenpon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/charator/ADAPHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/charator/ADAPHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/charator/ADHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/charator/ADHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaEE/charator/Attack1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE/charator/Attack1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/JacksonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/JacksonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/SchedulerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/SchedulerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/MyRedisSessionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/MyRedisSessionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/MySessionIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/MySessionIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/MyShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/MyShiroRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/MySignOutFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/MySignOutFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/ShiroRedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/ShiroRedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/ShiroRedisCacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/config/shiro/ShiroRedisCacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/dao/ClassMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/dao/ClassMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/dao/CompleteOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/dao/CompleteOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/dao/OrdersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/dao/OrdersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/entity/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/entity/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/entity/CompleteOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/entity/CompleteOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/entity/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/exception/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/AdministratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/AdministratorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/BuildingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/BuildingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/ClassService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/ClassService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/CompleteOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/CompleteOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/AdministratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/AdministratorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/ClassServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/ClassServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/CompleteOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/CompleteOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/Impl/OrdersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/ConstantUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/ConstantUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/Entity2VO.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/Entity2VO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/JsonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/PageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/PasswordEncryptionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/PasswordEncryptionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/ZipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/utils/ZipUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/web/controller/BuildingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/web/controller/BuildingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/web/controller/ClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/web/controller/ClassController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/web/controller/CompleteOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/web/controller/CompleteOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/web/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/java/com/repairsystem/web/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/AdministratorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/AdministratorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/BuildingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/BuildingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/ClassMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/ClassMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/CompleteOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/CompleteOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RepairSystem/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/test/e2e/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/test/e2e/runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-system/test/unit/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/repair-system/test/unit/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/Java面试笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/Java面试笔记.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Developer\apache-maven-3.6.3\repo\repository" />
+        <option name="mavenHome" value="D:/Developer/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Developer\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1spdvJglnpOlQN9hsyNHvvGHJoD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c870cd7-abb4-4500-9ed9-3f288f679e23" name="Default Changelist" comment="" />
+      <created>1621573693957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621573693957</updated>
+      <workItem from="1621573697573" duration="165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="88" width="1536" height="695" key="new project wizard" timestamp="1621573862412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="88" width="1536" height="695" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1621573862412" />
+  </component>
+</project>

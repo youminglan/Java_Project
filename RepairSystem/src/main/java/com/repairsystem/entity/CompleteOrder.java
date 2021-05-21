@@ -9,7 +9,8 @@ import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
-@ApiModel(value = "完成工单对象",description = "这是完成工单对象")
+
+@ApiModel(value = "完成工单对象", description = "这是完成工单对象")
 @Table(name = "complete_order")
 public class CompleteOrder {
     /**
@@ -17,14 +18,14 @@ public class CompleteOrder {
      */
     @Id
     @Column(name = "order_id")
-    @ApiModelProperty(value = "完成工单ID",name = "orderId")
+    @ApiModelProperty(value = "完成工单ID", name = "orderId")
     private Integer orderId;
 
     /**
      * 管理员ID
      */
     @Column(name = "admin_id")
-    @ApiModelProperty(value = "管理员ID",name = "adminName",example = "1",required = true)
+    @ApiModelProperty(value = "管理员ID", name = "adminName", example = "1", required = true)
     private Integer adminId;
 
     /**
@@ -51,20 +52,20 @@ public class CompleteOrder {
     /**
      * 工单问题
      */
-    @ApiModelProperty(value = "工单问题",name = "problem",example = "电脑出现问题",required = true)
+    @ApiModelProperty(value = "工单问题", name = "problem", example = "电脑出现问题", required = true)
     private String problem;
 
     /**
      * 记录
      */
-    @ApiModelProperty(value = "解决问题记录",name = "remark",example = "电脑解决问题")
+    @ApiModelProperty(value = "解决问题记录", name = "remark", example = "电脑解决问题")
     private String remark;
 
     /**
      * 所属教室ID
      */
     @Column(name = "class_id")
-    @ApiModelProperty(value = "实训室ID",name = "classId",example = "1",required = true)
+    @ApiModelProperty(value = "实训室ID", name = "classId", example = "1", required = true)
     private Integer classId;
 
     /**
@@ -77,7 +78,7 @@ public class CompleteOrder {
      * 所属实训楼ID
      */
     @Column(name = "building_id")
-    @ApiModelProperty(value = "所属实训楼ID",name = "buildingId",example = "1",required = true)
+    @ApiModelProperty(value = "所属实训楼ID", name = "buildingId", example = "1", required = true)
     private Integer buildingId;
 
     /**
@@ -128,6 +129,7 @@ public class CompleteOrder {
 
     /**
      * 获取管理员名称
+     *
      * @return
      */
     public String getAdminName() {
@@ -136,6 +138,7 @@ public class CompleteOrder {
 
     /**
      * 设置管理员名称
+     *
      * @param adminName
      */
     public void setAdminName(String adminName) {

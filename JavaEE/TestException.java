@@ -14,6 +14,7 @@ import sun.misc.PostVMInitHook;
 import sun.net.www.content.text.plain;
 
 import java.io.FileNotFoundException;
+
 public class TestException {
     public static void main(String[] args) {
         File f = new File("d:/LOL.exe");\

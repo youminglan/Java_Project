@@ -57,7 +57,6 @@ public class MyShiroRealm extends AuthorizingRealm {
         return info;
 
 
-
     }
 
     /**
@@ -74,12 +73,12 @@ public class MyShiroRealm extends AuthorizingRealm {
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
         //从数据库获得对应的信息
         Administrator admin = adminService.searchAdministratorByPhoneNum(token.getUsername());
-        if(null == admin){
+        if (null == admin) {
             throw new AccountException("管理员手机号不正确");
-        }else if(admin.getAdminPassword().equals(token.getPassword())){
+        } else if (admin.getAdminPassword().equals(token.getPassword())) {
             throw new AccountException("密码不正确");
         }
-        return new SimpleAuthenticationInfo(token.getUsername(),admin.getAdminPassword(),"adminRealm");
+        return new SimpleAuthenticationInfo(token.getUsername(), admin.getAdminPassword(), "adminRealm");
 
     }
 }

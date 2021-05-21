@@ -15,12 +15,14 @@ public interface ClassService {
 
     /**
      * 获取全部机房信息
+     *
      * @return
      */
     List<Class> searchAllClass();
 
     /**
      * 通过机房ID获取机房信息
+     *
      * @param id
      * @return
      */
@@ -28,6 +30,7 @@ public interface ClassService {
 
     /**
      * 通过机房名称获取机房信息
+     *
      * @param name
      * @return
      */
@@ -35,6 +38,7 @@ public interface ClassService {
 
     /**
      * 通过实训楼ID称获取机房信息
+     *
      * @param buildingId
      * @return
      */
@@ -44,30 +48,35 @@ public interface ClassService {
 
     /**
      * 保存机房信息
+     *
      * @param classes
      */
     void saveClass(Class classes);
 
     /**
      * 修改你机房信息
+     *
      * @param classes
      */
     void updateClass(Class classes);
 
     /**
      * 删除机房信息
+     *
      * @param id
      */
     void deleteClass(Integer id) throws MySQLIntegrityConstraintViolationException;
 
     /**
      * 增加实训室可用电脑
+     *
      * @param id
      */
     void increaseComputerEnable(Integer id);
 
     /**
      * 减少实训室可用电脑
+     *
      * @param id
      */
     void reduceComputerEnable(Integer id);

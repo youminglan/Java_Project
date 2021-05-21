@@ -6,6 +6,7 @@ import com.repairsystem.utils.MyMapper;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+
 @Component
 public interface ClassMapper extends MyMapper<Class> {
 

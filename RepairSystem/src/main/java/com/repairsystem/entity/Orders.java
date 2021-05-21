@@ -40,7 +40,7 @@ public class Orders {
      * 所属实训楼ID
      */
     @Column(name = "building_id")
-    @ApiModelProperty(value = "所属实训楼ID",name = "buildingId",example = "1",required = true)
+    @ApiModelProperty(value = "所属实训楼ID", name = "buildingId", example = "1", required = true)
     private Integer buildingId;
 
     /**
@@ -52,7 +52,7 @@ public class Orders {
     /**
      * 维修状态
      */
-    @ApiModelProperty(value = "维修状态",name = "status",example = "0",required = true)
+    @ApiModelProperty(value = "维修状态", name = "status", example = "0", required = true)
     private Integer status;
 
     /**
@@ -68,14 +68,14 @@ public class Orders {
      * 故障图片上传
      */
     @Column(name = "images_path")
-    @ApiModelProperty(value = "故障图片",name = "imagesPath")
+    @ApiModelProperty(value = "故障图片", name = "imagesPath")
     private String imagesPath;
 
     /**
      * 接手管理员ID
      */
     @Column(name = "admin_id")
-    @ApiModelProperty(value = "经手管理员ID",name = "adminId",example = "1",required = true)
+    @ApiModelProperty(value = "经手管理员ID", name = "adminId", example = "1", required = true)
     private Integer adminId;
 
     /**
@@ -87,14 +87,14 @@ public class Orders {
     /**
      * 报修人名称
      */
-    @ApiModelProperty(value = "报修人名称",name = "userName",example = "王翠花",required = true)
+    @ApiModelProperty(value = "报修人名称", name = "userName", example = "王翠花", required = true)
     @Column(name = "user_name")
     private String userName;
 
     /**
      * 报修人电话
      */
-    @ApiModelProperty(value = "报修人电话号码" ,name = "userPhone",example = "13525874610",required = true)
+    @ApiModelProperty(value = "报修人电话号码", name = "userPhone", example = "13525874610", required = true)
     @Column(name = "user_phone")
     private String userPhone;
 
@@ -102,13 +102,13 @@ public class Orders {
      * 报修人邮箱
      */
     @Column(name = "user_email")
-    @ApiModelProperty(value = "报修人邮箱",name = "userEmail",example = "user@abc.com",required = true)
+    @ApiModelProperty(value = "报修人邮箱", name = "userEmail", example = "user@abc.com", required = true)
     private String userEmail;
 
     /**
      * 工单问题
      */
-    @ApiModelProperty(value = "维修工单问题",name = "problem",example = "电脑出现问题",required = true)
+    @ApiModelProperty(value = "维修工单问题", name = "problem", example = "电脑出现问题", required = true)
     private String problem;
 
     /**

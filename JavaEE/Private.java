@@ -10,16 +10,18 @@
 3. 会被子类继承的方法，通常使用protected
 4. package用的不多，一般新手会用package,因为还不知道有修饰符这个东西
 */
+
 pakeage charactor;
 import property.Weapon;
 
-public class Private{
-	private int id;
-	String name;
-	float hp;
-	float armor;
+public class Private {
+    private int id;
+    String name;
+    float hp;
+    float armor;
     int moveSpeed;
-	public void equip(Weapon w){
-		
-	}
+
+    public void equip(Weapon w) {
+
+    }
 }

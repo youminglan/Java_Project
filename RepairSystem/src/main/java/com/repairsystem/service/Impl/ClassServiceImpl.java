@@ -57,7 +57,7 @@ public class ClassServiceImpl implements ClassService {
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public List<Class> searchClassByBuildingId(String buildingId) {
-        if(StringUtils.isBlank(buildingId)){
+        if (StringUtils.isBlank(buildingId)) {
             throw new BuildingIdIsNullException("传入的实训楼ID不能为空");
         }
         return classMapper.getClassByBuildingId(buildingId);

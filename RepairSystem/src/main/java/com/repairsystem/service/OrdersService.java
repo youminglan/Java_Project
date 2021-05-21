@@ -14,12 +14,14 @@ public interface OrdersService {
 
     /**
      * 获取全部维修单
+     *
      * @return
      */
     List<Orders> searchAllOrder();
 
     /**
      * 按照维修单号搜索维修单
+     *
      * @param id
      * @return
      */
@@ -27,25 +29,28 @@ public interface OrdersService {
 
     /**
      * 获得工单总数量
+     *
      * @return
      */
     Integer getOrderCount();
 
     /**
      * 添加维修单
-     * @param order
      *
+     * @param order
      */
     void saveOrder(Orders order);
 
     /**
      * 更新维修单
+     *
      * @param order
      */
     void updateOrder(Orders order);
 
     /**
      * 删除维修单
+     *
      * @param id
      */
     void deleteOrder(Integer id);

@@ -14,18 +14,21 @@ public interface CompleteOrderService {
 
     /**
      * 获取所有完成表单
+     *
      * @return
      */
     List<CompleteOrder> searchAllCompleteOrder();
 
     /**
      * 获取完成维修表单数量
+     *
      * @return
      */
     Integer getCompleteOrderCount();
 
     /**
      * 通过表单Id获取表单信息
+     *
      * @param id
      * @return
      */
@@ -33,6 +36,7 @@ public interface CompleteOrderService {
 
     /**
      * 通过关键字搜索完成维修工单
+     *
      * @param keyWord
      * @return
      */
@@ -40,18 +44,21 @@ public interface CompleteOrderService {
 
     /**
      * 保存已完成表单信息
+     *
      * @param completeOrder
      */
     void saveCompleteOrder(CompleteOrder completeOrder);
 
     /**
      * 更新完成表单信息
+     *
      * @param completeOrder
      */
     void updateCompleteOrder(CompleteOrder completeOrder);
 
     /**
      * 删除完成表单信息
+     *
      * @param id
      */
     void deleteCompleteOrder(Integer id);

@@ -1,120 +1,185 @@
-## 笔记
+1. 类与对象的区别？
 
-**1. Java语言特点：**
+   类是对一类对象具有相同属性和行为的一种抽象；对象是类的实例化。
 
-1.简单易学；
+   车这个抽象概念，马路上很多车，无法具体到哪一辆，特指的某辆车就是一个对象
 
-2.面向对象；
+2. static和final
 
-3.平台无关性；
+   static静态修饰符可以修饰代码块，变量和类方法。
 
-4.可靠性；
+   当修饰代码块时，系统初始化代码块；修饰变量时，JVM会将其分配在内存堆上；修饰类方法时，可以直接通过类调用这个类方法，而不需要new一个对象。
 
-5.安全性；
+   final修饰符可以修饰变量，方法和类。
 
-6.多线程编程；
+   修饰变量时，程序不可以改变变量的值；修饰方法时，其子类不能重写方法；修饰类时，该类不能被继承。
 
-7.编译与解释并行；
+3. 接口与抽象类的区别
 
-**2. 字符型常量和字符串常量的区别**
+   相同：都不能被实例化
 
-1.形式上不同：字符常量单引号，字符串常量双引号；
+   不同：接口只能定义，不能有方法的实现，抽象类可以有方法的实现；一个类可以实现多个接口，但一个类只能实现一个抽象类。
 
-2.含义上不同：字符常量相当于一个整型值，可以参加表达式运算；字符串常量代表一个地址值；
+4. object类
 
-3.占内存大小不同：字符常量只占 2 个字节; 字符串常量占若⼲个字节；
+   所有类都继承自object类实例化方法
 
-**3. 构造器Constructor是否可被override**
+   有clone、toString、hashCode方法
 
- 不能，但可以被overload（重载）。
+5. 创建线程几种方式
 
-**4. 重载和重写的区别**
+   继承Thread类；实现runnable接口
 
-> 重载是同样的一个方法能够根据输入的数据不同，做出不同的处理
->
-> 重写是当子类继承自父类的相同方法，输入数据一样，但又做出有别于父类的响应时，你就要写覆盖父类方法。
+6. 设计模式
 
-1. 重载：
+   单例模式、工厂方法模式、抽象工厂模式、桥接模式
 
-发生在同一个类中，方法名必须相同，参数类型不同、个数不同、顺序不同，方法返回值和访问修饰符可以不同。
+7. 面向对象特性
 
-2. 重写
+   封装、继承、多态
 
-重写发生在运行期，是子类对父类的允许访问的方法的实现过程进行重写编写
+8. String、StringBuffer、StringBuilder区别
 
-```java
-public class Hero {
- public String name() {
- return "超级英雄";
- }
-}
-public class SuperMan extends Hero{
- @Override
- public String name() {
- return "超⼈";
- }
- public Hero hero() {
- return new Hero();
- }
-}
-public class SuperSuperMan extends SuperMan {
-    public String name() {
- return "超级超级英雄";
- }
- @Override
- public SuperMan hero() {
- return new SuperMan();
- }
-}
+   String：字符串，一旦赋值就不能改变；
 
-```
+   StringBuffer：线程安全的可变字节，可以作为字符串拼接，不会浪费太多资源
 
-**5. 异常**
+   StringBuilder：数据不安全，但效率高
 
-```java
-pakeage exception;
+9. Integer与int的区别
 
-import java.io.File;
-import java.io.FileInputStream;
+   Integer是int的包装类，int是基本数据类型；Integer必须被实例化，实际上是对象的引用
 
-public class TestException{
-    public static void main(String[] args){
-        File f = new File("d:/LOL.exe");
-        new FileInputStream(f);
-    }
-}
-```
+10. 集合框架有哪些？
 
-**6. 异常处理**
+    Map、List、Set
 
-```java
-/*
-1.将可能抛出FileNotFoundException 文件不存在异常的代码放在try里
-2.如果文件存在，就会顺序往下执行，并且不执行catch块中的代码
-3. 如果文件不存在，try 里的代码会立即终止，程序流程会运行到对应的catch块中
-4. e.printStackTrace(); 会打印出方法的调用痕迹，如此例，会打印出异常开始于TestException的第16行，这样就便于定位和分析到底哪里出了异常
-*/
+11. 线程与进程的区别
 
-pakeage exception;
+    进程是一个程序从开始到消亡的过程，线程是进程中独立的执行序列。一个进程包含多个线程。
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+12. 垃圾回收
 
-public class TestException{
-    public static void main(String[] args){
-        File f = new File("d:/LOLO.exe");
-        
-        try{
-            System.out.println("试图打开 d:/LOL.exe");
-            new FileInputStream(f);
-            System.out.print("成功打开");
-        }
-        catch(FileNotFoundException e){
-            System.out.println("d:/LOL.exe");
-            e.printStackTrace();
-        }
-    }
-}
-```
+    垃圾回收通过垃圾收集器把内存中没用的对象清理掉。
 
+13. 垃圾回收算法
+
+    标记清除算法、复制算法、标记整理算法、分化收集算法
+
+14. 有哪些锁
+
+    乐观锁，悲观锁、公平锁，非公平锁、独占锁、共享锁。
+
+15. 深拷贝和浅拷贝
+
+    深拷贝：对基本数据类型进行值传递；对引用数据类型，创建一个新的对象，并复制器内容
+
+    浅拷贝：对基本数据类型进行值传递；对引用数据类型进行引用传递般的拷贝
+
+16. 死锁原因以及如何避免死锁
+
+    多个线程同时被堵塞，它们中的一个或者全部都在等待某个资源被释放
+
+    解决办法：破坏互斥条件，破坏请求与保持条件，破坏循环等待条件
+
+17. 重写与重载
+
+    重写是子类对父类的允许访问方法的实现过程进行重新编写。发生在子类中，方法名、参数相同
+
+    重载是在同一个类中多个同名方法根据不同的传参来执行不同的逻辑处理。发生在同一个类中，方法名相同，参数，返回值可以不同。
+
+19. 自动装箱和拆箱
+
+    装箱：将基本数据类型用它们对应的引用类型包装起来
+
+    拆箱：将包装类型转换为基本数据类型
+
+20. ==与equals
+
+    ==比较两个对象是否相同(内存地址是否相同)
+
+    类没覆盖equals方法：等价于"=="；类覆盖equals方法：比较对象内容是否相等
+
+21. hashCode和equals
+
+    重写的equals里一般是复杂的比较，效率比较低
+
+    用hashCode比较的是对象在哈希表中索引位置是否相同，只需生成一个hash值进行比较就可以了
+
+21. 为什么重写equals时必须重写hashCode
+
+    
+
+22. redis的基本数据类型
+
+    string、hash、set、zset、list
+
+23. UDP 和 TCP 的特点与区别
+
+    UDP（用户数据报协议）无连接的，尽最大可能交付，没有拥塞控制，面向报文。
+
+    TCP（传输控制协议）是面向连接的，提供可靠交付，有流量控制，拥塞控制，提供全双工通信，面向字节流
+
+24. Linux命令
+
+    cd 用于切换当前目录
+
+    ls 查看文件与目录的命令
+
+    mkdir 创建指定的名称的目录
+
+    mv 移动文件、目录或更名
+
+    rm 删除文件或目录
+
+25. 说一下为什么要使用Spring Boot
+
+    容易上手，提升开发效率，为 Spring 开发提供一个更快、更广泛的入门体验。
+    开箱即用，远离繁琐的配置。
+    提供了一系列大型项目通用的非业务性功能，例如：内嵌服务器、安全管理、运行数据监控、运行状况检查和外部化配置等。
+    没有代码生成，也不需要XML配置。
+    避免大量的 Maven 导入和各种版本冲突。
+
+26. Spring Boot 有哪些注解？
+
+    @SpringBootConfiguration：组合了 @Configuration 注解，实现配置文件的功能。
+
+    @EnableAutoConfiguration：打开自动配置的功能，也可以关闭某个自动配置的选项，如关闭数据源自动配置功能： @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })。
+
+    @ComponentScan：Spring组件扫描。
+
+27. 普通方法和构造方法区别
+    构造方法：方法名和类名相同；在方法名的前面没有返回值类型的声明；在方法中不能使用return语句返回一个值；在创建对象时，要调用new。
+
+    普通方法：有返回类型( void 或者确定的类型)；方法名不能和类名相同；普通方法是不能new 的，可以通过对象名来调用
+
+28. HTTPS和HTTP的区别
+
+    https协议需要到ca申请证书，一般免费证书较少，因而需要一定费用。
+    http是超文本传输协议，信息是明文传输，https则是具有安全性的ssl加密传输协议。
+    http和https使用的是完全不同的连接方式，用的端口也不一样，前者是80，后者是443。
+    http的连接很简单，是无状态的；HTTPS协议是由SSL+HTTP协议构建的可进行加密传输、身份认证的网络协议，比http协议安全。
+
+29. 三次握手
+
+    第一次握手：客户端给服务器发送一个 SYN 报文。
+
+    第二次握手：服务器收到 SYN 报文之后，会应答一个 SYN+ACK 报文。
+
+    第三次握手：客户端收到 SYN+ACK 报文之后，会回应一个 ACK 报文。
+
+30. 三次握手的作用
+
+    确认双方的接收和发送是否正常。
+
+    指定自己的初始化序列号，为后面的可靠传送做准备。
+
+    如果是 https 协议的话，三次握手这个过程，还会进行数字证书的验证以及加密密钥的生成到。
+
+31. 什么是BIO，NIO，AIO ？
+
+    BIO：blocking I/O 同步阻塞IO模式，数据的读取写入必须阻塞在一个线程内等待其完成
+
+    NIO： non-blocking IO 同步非阻塞IO，IO面向流，而NIO面向缓冲区，任何时候访问NIO的数据，都是面向缓冲区的，最常用的缓冲区是ByteBuffer
+
+    AIO 即NIO2，异步非阻塞IO模型，基于事件和回调机制实现

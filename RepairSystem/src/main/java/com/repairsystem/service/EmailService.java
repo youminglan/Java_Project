@@ -9,7 +9,7 @@ import org.springframework.mail.SimpleMailMessage;
  */
 public interface EmailService {
 
-    String acceptOrderMail(String userName,String userEmail);
+    String acceptOrderMail(String userName, String userEmail);
 
-    String completeOrderMail(String userName,String userEmail);
+    String completeOrderMail(String userName, String userEmail);
 }

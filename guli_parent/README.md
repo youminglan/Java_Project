@@ -268,6 +268,26 @@
           
              ![11 讲师修改功能](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103929.png)
           
-             
-          
-          
+   ### 第三天
+   
+      1. 统一异常处理
+   
+         全局异常处理
+   
+         特定异常处理
+   
+         自定义异常处理
+   
+         ![2-统一异常处理](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618145951.png)
+   
+        2. 统一日志处理
+   
+           日志级别：ERROR、WARN、INFO、DEBUG
+   
+           Logback：把日志不仅输出到控制台，也可以输出到文件中，使用日志工具
+   
+           ![3-统一日志处理](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618152607.png)
+   
+        3. 前端知识
+   
+           安装前端开发工具 vscode、前置知识：JavaScript，jQuery，HTML

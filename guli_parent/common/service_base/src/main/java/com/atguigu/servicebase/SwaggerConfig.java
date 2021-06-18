@@ -11,12 +11,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * @author : youminglan
- * @date : 2021/6/16 11:45
- * Create in Wuhan Hubei
- */
-
 @Configuration//配置类
 @EnableSwagger2 //swagger注解
 public class SwaggerConfig {
@@ -35,12 +29,11 @@ public class SwaggerConfig {
 
     private ApiInfo webApiInfo(){
 
-        ApiInfo build = new ApiInfoBuilder()
+        return new ApiInfoBuilder()
                 .title("网站-课程中心API文档")
                 .description("本文档描述了课程中心微服务接口定义")
                 .version("1.0")
                 .contact(new Contact("java", "http://atguigu.com", "1123@qq.com"))
                 .build();
-        return build;
     }
 }

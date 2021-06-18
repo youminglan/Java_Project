@@ -212,4 +212,62 @@
        2. 方便接口测试
        3. 创建公共模块，整合swagger，为了所有模块都能进行使用
        ![image-20210616121333090](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210616121333.png)
-       4. 
+       
+       
+       
+       讲师分页功能
+       
+       1. 配置mp分页插件
+       
+          ```java
+          /**
+               * 分页插件
+               */
+              @Bean
+              public PaginationInterceptor paginationInterceptor() {
+                  return new PaginationInterceptor();
+              }
+          ```
+       
+          
+       
+       2. 编写讲师分页查询接口方法
+       
+          ```java
+          @GetMapping("pageTeacher/{current}/{limit}")
+              public R pageListTeacher(@PathVariable long current,
+                                       @PathVariable long limit) {
+                  //创建page对象
+                  Page<EduTeacher> pageTeacher = new Page<>(current,limit);
+          
+                  int i = 10/0;
+          
+                  //调用方法实现分页
+                  //调用方法时候，底层封装，把分页所有数据封装到pageTeacher对象里面
+                  teacherService.page(pageTeacher,null);
+          
+                  long total = pageTeacher.getTotal();//总记录数
+                  List<EduTeacher> records = pageTeacher.getRecords(); //数据list集合
+                  return R.ok().data("total",total).data("rows",records);
+              }
+          ```
+       
+       3. 多条件组合查询带分页
+       
+          ![9 讲师分页查询和条件查询](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103316.png)
+          
+          
+          
+          讲师添加功能
+          
+          1. 自动填充
+          
+             ![10 讲师添加功能](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103310.png)
+          
+          2. 讲师修改功能
+          
+             ![11 讲师修改功能](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103929.png)
+          
+             
+          
+          

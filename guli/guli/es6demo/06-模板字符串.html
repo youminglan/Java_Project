@@ -1,0 +1,20 @@
+<script>
+    //1.使用`符号实现换行
+    let str1 = `hello,
+    es6 demo up!`
+    console.log(str1)
+
+    //2.字符串插入变量和表达式。变量名写在 ${} 中，${} 中可以放入 JavaScript 表达式。
+    let name = "Mike"
+    let age = 20
+
+    let str2 = `My Name is ${name},I am ${age+1} years old next year.`
+    console.log(str2)
+
+    // 3、字符串中调用函数
+    function f(){
+        return "have fun!"
+}
+let string2 = `Game start,${f()}`
+console.log(string2); // Game start,have fun!
+</script>

@@ -279,15 +279,25 @@
          自定义异常处理
    
          ![2-统一异常处理](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618145951.png)
+         
+         统一日志处理
+         
+         日志级别：ERROR、WARN、INFO、DEBUG
+         
+         Logback：把日志不仅输出到控制台，也可以输出到文件中，使用日志工具
    
-        2. 统一日志处理
+   ![3-统一日志处理](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618152607.png)
    
-           日志级别：ERROR、WARN、INFO、DEBUG
+      2. 前端知识
    
-           Logback：把日志不仅输出到控制台，也可以输出到文件中，使用日志工具
+         安装前端开发工具 vscode
    
-           ![3-统一日志处理](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618152607.png)
+         创建工作区
    
-        3. 前端知识
+         ![4-vscode安装](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210621101523.png)
    
-           安装前端开发工具 vscode、前置知识：JavaScript，jQuery，HTML
+         ES6：一套标准，一套规范，JavaScript很好地遵循了这套规范
+   
+         ![5-es6介绍](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210621102259.png)
+   
+         

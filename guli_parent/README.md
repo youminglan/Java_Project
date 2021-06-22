@@ -302,7 +302,15 @@
    
          Vue.js：一套用于构建用户界面的渐进式框架。
          
-         ![6-vue入门案例](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day03\day03笔记\day03笔记\day03随堂笔记\6-vue入门案例.png)
+         ![6-vue入门案例](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210621223145.png)
+         
+         组件（Component）是 Vue.js 最强大的功能之一。
+         
+         组件可以扩展 HTML 元素，封装可重用的代码。
+         
+         组件系统让我们可以用独立可复用的小组件来构建大型应用，几乎任意类型的应用的界面都可以抽象为
+         
+         一个组件树：
          
          
 

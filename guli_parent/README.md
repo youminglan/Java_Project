@@ -145,139 +145,139 @@
            }
            ```
       
-4. 创建启动类
+3. 创建启动类
         
-           ```java
-           @SpringBootApplication
-           public class EduApplication {
-           
-               public static void main(String[] args) {
-                   SpringApplication.run(EduApplication.class, args);
-               }
+       ```java
+       @SpringBootApplication
+       public class EduApplication {
+       
+           public static void main(String[] args) {
+               SpringApplication.run(EduApplication.class, args);
            }
-           ```
+       }
+       ```
+
+    5. 创建配置类，配置mapper扫描和其他
+
+       ```java
+       @Configuration
+       @MapperScan("com.atguigu.eduservice.mapper")
+       public class EduConfig {
        
-        5. 创建配置类，配置mapper扫描和其他
-       
-           ```java
-           @Configuration
-           @MapperScan("com.atguigu.eduservice.mapper")
-           public class EduConfig {
-           
-           }
-           ```
-       
-        6. 最终测试
-       
-           项目启动起来，端口号8001
-           
-           
-       
-        开发讲师管理模块
-       
-       1. 配置逻辑删除插件
-       
-          ```java
-          /**
-               * 逻辑删除插件
-               */
-              @Bean
-              public ISqlInjector sqlInjector() {
-                  return new LogicSqlInjector();
-              }
-          ```
-       
-       2. 逻辑删除属性上面添加注解
-       
-       3. 编写controller方法
-       
-          ```java
-              //逻辑删除讲师的方法
-              @DeleteMapping("{id}") //id值需要通过路径进行传递
-              public boolean removeTeacher(@PathVariable String id){
-                  boolean flag = teacherService.removeById(id);
-                  return flag;
-              }
-          ```
-       
-       4. 如何测试
-       
-          借助一些工具进行测试：swagger、postman
-       
-          
-       
-       整合swagger进行接口测试
-       
-       1. 生成在线接口文档
-       2. 方便接口测试
-       3. 创建公共模块，整合swagger，为了所有模块都能进行使用
-       ![image-20210616121333090](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210616121333.png)
+       }
+       ```
+
+    6. 最终测试
+
+       项目启动起来，端口号8001
        
        
-       
-       讲师分页功能
-       
-       1. 配置mp分页插件
-       
-          ```java
-          /**
-               * 分页插件
-               */
-              @Bean
-              public PaginationInterceptor paginationInterceptor() {
-                  return new PaginationInterceptor();
-              }
-          ```
-       
-          
-       
-       2. 编写讲师分页查询接口方法
-       
-          ```java
-          @GetMapping("pageTeacher/{current}/{limit}")
-              public R pageListTeacher(@PathVariable long current,
-                                       @PathVariable long limit) {
-                  //创建page对象
-                  Page<EduTeacher> pageTeacher = new Page<>(current,limit);
-          
-                  int i = 10/0;
-          
-                  //调用方法实现分页
-                  //调用方法时候，底层封装，把分页所有数据封装到pageTeacher对象里面
-                  teacherService.page(pageTeacher,null);
-          
-                  long total = pageTeacher.getTotal();//总记录数
-                  List<EduTeacher> records = pageTeacher.getRecords(); //数据list集合
-                  return R.ok().data("total",total).data("rows",records);
-              }
-          ```
-       
-       3. 多条件组合查询带分页
-       
-          ![9 讲师分页查询和条件查询](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103316.png)
-          
-          
-          
-          讲师添加功能
-          
-          1. 自动填充
-          
-             ![10 讲师添加功能](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103310.png)
-          
-          2. 讲师修改功能
-          
-             ![11 讲师修改功能](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103929.png)
-          
+
+    开发讲师管理模块
+
+   1. 配置逻辑删除插件
+
+      ```java
+      /**
+           * 逻辑删除插件
+           */
+          @Bean
+          public ISqlInjector sqlInjector() {
+              return new LogicSqlInjector();
+          }
+      ```
+
+   2. 逻辑删除属性上面添加注解
+
+   3. 编写controller方法
+
+      ```java
+          //逻辑删除讲师的方法
+          @DeleteMapping("{id}") //id值需要通过路径进行传递
+          public boolean removeTeacher(@PathVariable String id){
+              boolean flag = teacherService.removeById(id);
+              return flag;
+          }
+      ```
+
+   4. 如何测试
+
+      借助一些工具进行测试：swagger、postman
+
+      
+
+   整合swagger进行接口测试
+
+   1. 生成在线接口文档
+   2. 方便接口测试
+   3. 创建公共模块，整合swagger，为了所有模块都能进行使用
+   ![image-20210616121333090](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210616121333.png)
+
+   
+
+   讲师分页功能
+
+   1. 配置mp分页插件
+
+      ```java
+      /**
+           * 分页插件
+           */
+          @Bean
+          public PaginationInterceptor paginationInterceptor() {
+              return new PaginationInterceptor();
+          }
+      ```
+
+      
+
+   2. 编写讲师分页查询接口方法
+
+      ```java
+      @GetMapping("pageTeacher/{current}/{limit}")
+          public R pageListTeacher(@PathVariable long current,
+                                   @PathVariable long limit) {
+              //创建page对象
+              Page<EduTeacher> pageTeacher = new Page<>(current,limit);
+      
+              int i = 10/0;
+      
+              //调用方法实现分页
+              //调用方法时候，底层封装，把分页所有数据封装到pageTeacher对象里面
+              teacherService.page(pageTeacher,null);
+      
+              long total = pageTeacher.getTotal();//总记录数
+              List<EduTeacher> records = pageTeacher.getRecords(); //数据list集合
+              return R.ok().data("total",total).data("rows",records);
+          }
+      ```
+
+   3. 多条件组合查询带分页
+
+      ![9 讲师分页查询和条件查询](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103316.png)
+      
+      
+      
+      讲师添加功能
+      
+      1. 自动填充
+      
+         ![10 讲师添加功能](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103310.png)
+      
+      2. 讲师修改功能
+      
+         ![11 讲师修改功能](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618103929.png)
+      
    ### 第三天
-   
+
       1. 统一异常处理
-   
+
          全局异常处理
-   
+
          特定异常处理
-   
+
          自定义异常处理
-   
+
          ![2-统一异常处理](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618145951.png)
          
          统一日志处理
@@ -285,29 +285,65 @@
          日志级别：ERROR、WARN、INFO、DEBUG
          
          Logback：把日志不仅输出到控制台，也可以输出到文件中，使用日志工具
-   
+
    ![3-统一日志处理](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210618152607.png)
-   
+
       2. 前端知识
-   
+
          安装前端开发工具 vscode
-   
+
          创建工作区
-   
+
          ![4-vscode安装](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210621101523.png)
-   
+
          ES6：一套标准，一套规范，JavaScript很好地遵循了这套规范
-   
+
          ![5-es6介绍](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210621102259.png)
-   
+
          Vue.js：一套用于构建用户界面的渐进式框架。
-         
+
          ![6-vue入门案例](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210621223145.png)
-         
+
          组件（Component）是 Vue.js 最强大的功能之一。
-         
+
          组件可以扩展 HTML 元素，封装可重用的代码。
-         
+
          组件系统让我们可以用独立可复用的小组件来构建大型应用，几乎任意类型的应用的界面都可以抽象为一个组件树
-         
+
+         ### 第四天
+
+         内容：
+
+         1. axios，发送ajax请求
+
+            - axios是独立的项目，不是vue里面的一部分，使用axios经常和vue一起使用，实现ajax操作。
+
+            - 使用axios应用场景
+
+              ![02-axios操作](https://raw.githubusercontent.com/youminglan/Picture/main/img/20210624152610.png)
+
+              
+
+         2. element-ui
+
+            element-ui 是饿了么前端出品的基于 Vue.js的 后台组件库，方便程序员进行页面快速布局和构建
+
+         3. node.js
+
+            - node.js是什么？
+
+              简单的说 Node.js 就是运行在服务端的 JavaScript。之前学过Java，运行Java需要安装jdk环境，学习的这个node.js，是JavaScript的运行环境，用于执行JavaScript代码环境。不需要浏览器，直接使用node.js运行JavaScript代码；模拟服务器效果，比如tomcat。
+
+         4. npm
+
+            NPM全称Node Package Manager，是Node.js包管理工具，相当于前端的maven。
+
+         5. babel
+
+         6. 模块化
+
+         7. webpack
+
+         8. 搭建项目前端环境
+
          

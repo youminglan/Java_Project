@@ -340,10 +340,32 @@
 
          5. babel
 
+            babel是转码器，把es6码代码转换成es5代码。
+
+            因为写的代码es6代码，但是es6代码浏览器兼容性很差，如果使用es5代码浏览器兼容性很好。编写es6代码，把es6代码转换es5运行。
+
+            ![05-babel](https://raw.githubusercontent.com/youminglan/Picture/main/img/05-babel.png)
+
          6. 模块化
-
+         
+            - 开发后端接口时候，开发controller、service、mapper，controller注入service，service注入mapper，在后端中，类与类之间的调用成为模块化操作。
+         
+            - 前端模块化：在前端中，js与js之间的调用成为前端模块化操作。
+         
+            - es5模块化代码写法
+         
+              ![06-模块化es5写法l](https://raw.githubusercontent.com/youminglan/Picture/main/img/06-%E6%A8%A1%E5%9D%97%E5%8C%96es5%E5%86%99%E6%B3%95l.png)
+         
+            - es6模块化代码写法
+         
+              注意：如果使用es6写法模块化操作的，在Node.js环境不能直接执行，需要用Babel编辑成ES5后再执行。
+              
+              ![07-模块化es6写法l](https://raw.githubusercontent.com/youminglan/Picture/main/img/07-%E6%A8%A1%E5%9D%97%E5%8C%96es6%E5%86%99%E6%B3%95l.png)
+              
+              ![08-模块化es6写法2](https://raw.githubusercontent.com/youminglan/Picture/main/img/08-%E6%A8%A1%E5%9D%97%E5%8C%96es6%E5%86%99%E6%B3%952.png)
+         
          7. webpack
-
+         
          8. 搭建项目前端环境
-
+         
          

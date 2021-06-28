@@ -30,6 +30,8 @@ import java.util.Map;
 @Api(description="讲师管理")
 @RestController
 @RequestMapping("/eduservice/teacher")
+@CrossOrigin    //解决跨域
+
 public class EduTeacherController {
 
     //访问地址： http://localhost:8001/eduservice/teacher/findAll

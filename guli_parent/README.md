@@ -370,9 +370,9 @@
          
             Webpack 可以将多种静态资源 js、css、less 转换成一个静态文件，减少了页面的请求。
          
-            ![09-webpack打包](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day04\day04笔记\day04笔记\随堂笔记\09-webpack打包.png)
+            ![09-webpack打包](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083833.png)
          
-            ![10-webpack打包](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day04\day04笔记\day04笔记\随堂笔记\10-webpack打包.png)
+            ![10-webpack打包](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083830.png)
          
          8. 搭建项目前端环境
          
@@ -382,7 +382,7 @@
          
             普通用户 前台用户系统
          
-            ![11-搭建项目前端页面环境](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day04\day04笔记\day04笔记\随堂笔记\11-搭建项目前端页面环境.png)
+            ![11-搭建项目前端页面环境](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083828.png)
          
             前端页面环境说明
             
@@ -402,7 +402,7 @@
             
             5. 框架src目录
             
-               ![12-前端页面框架结构说明](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day04\day04笔记\day04笔记\随堂笔记\12-前端页面框架结构说明.png)
+               ![12-前端页面框架结构说明](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083825.png)
             
                .
             
@@ -452,7 +452,7 @@
     
    
 
-  ![02-改造登录到本地接口](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day05\day05笔记\day05笔记\随堂笔记\02-改造登录到本地接口.png)
+  ![02-改造登录到本地接口](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083819.png)
 
   **跨域问题**：通过一个地址去访问另外一个地址，这个过程中如果有三个地方任何一个不一样
 
@@ -480,9 +480,9 @@
 
    使用element-ui组件实现出来：在列表上面添加条件输入表单，使用v-model数据绑定
 
-![04-讲师列表前端开发](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day05\day05笔记\day05笔记\随堂笔记\04-讲师列表前端开发.png)
+![04-讲师列表前端开发](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083813.png)
 
-![05-讲师列表前端开发（分页和条件查询）](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day05\day05笔记\day05笔记\随堂笔记\05-讲师列表前端开发（分页和条件查询）.png)
+![05-讲师列表前端开发（分页和条件查询）](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083807.png)
 
    3. 讲师添加
 
@@ -490,7 +490,7 @@
 
       - 在表单页面点击 保存 ，提交接口，添加数据库
 
-        ![07-讲师添加功能前端实现](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day05\day05笔记\day05笔记\随堂笔记\07-讲师添加功能前端实现.png)
+        ![07-讲师添加功能前端实现](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083745.png)
 
    4. 讲师删除
 
@@ -504,8 +504,10 @@
 
       - 页面调用方法实现删除
 
-        ![06-讲师删除功能前端实现](D:\Study\Java学习\在线教育--谷粒学院\项目笔记课件\day05\day05笔记\day05笔记\随堂笔记\06-讲师删除功能前端实现.png)
+        ![06-讲师删除功能前端实现](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210702083734.png)
 
    5. 讲师修改
 
-   
+- 每条记录后面添加修改按钮
+- 点击修改按钮 进入表单页面，进行数据回显：根据讲师ID查询数据显示
+- 通过路由跳转进入数据回显页面，在路由index页面

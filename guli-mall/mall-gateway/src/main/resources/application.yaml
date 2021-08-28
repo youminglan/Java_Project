@@ -1,0 +1,104 @@
+spring:
+  application:
+    name: mall-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.163.131:8848
+    gateway:
+      routes:
+        #Query A 参数有A就行，Query B,C 参数B的值为C即可
+        #实现针对于“http://localhost:88/zsy0216?url=baidu”，转发到“https://www.github.com/zsy0216”，
+        #- id: github_route
+        #  uri: https://www.github.com
+        #  predicates:
+        #    - Query=url,github
+        - id: product_route
+          uri: lb://mall-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: order_route
+          uri: lb://mall-order
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: coupon_route
+          uri: lb://mall-coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: member_route
+          uri: lb://mall-member
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: ware_route
+          uri: lb://mall-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: third_party_route
+          uri: lb://mall-third-party
+          predicates:
+            - Path=/api/third-party/**
+          filters:
+            - RewritePath=/api/third-party/(?<segment>.*),/$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
+
+        - id: mall_host_route # 要放在后面
+          uri: lb://mall-product
+          predicates:
+            - Host=gulimall.com, item.gulimall.com
+
+        - id: mall_search_route
+          uri: lb://mall-search
+          predicates:
+            - Host=search.gulimall.com
+
+        - id: mall_auth_route
+          uri: lb://mall-auth-server
+          predicates:
+            - Host=auth.gulimall.com
+
+        - id: mall_cart_route
+          uri: lb://mall-cart
+          predicates:
+            - Host=cart.gulimall.com
+
+        - id: mall_order_route
+          uri: lb://mall-order
+          predicates:
+            - Host=order.gulimall.com
+
+        - id: mall_member_route
+          uri: lb://mall-member
+          predicates:
+            - Host=member.gulimall.com
+
+        - id: mall_seckill_route
+          uri: lb://mall-seckill
+          predicates:
+            - Host=seckill.gulimall.com
+
+      ## http://localhost:88/api/captcha.jpg   http://localhost:8080/renren-fast/captcha.jpg
+      ## http://localhost:88/api/product/category/list/tree http://localhost:10000/product/category/list/tree
+
+server:
+  port: 88

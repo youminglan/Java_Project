@@ -29,7 +29,7 @@
   - 搭建 Kubernetes 集群，实现全流程 DevOps。
   - 搭建 MySQL 集群，Redis 集群，RabbitMQ 集群，ElasticSearch 集群。
 
-![谷粒商城-微服务架构图](https://tva1.sinaimg.cn/large/007S8ZIlly1geblwvpadsj31f10u07dn.jpg)
+![谷粒商城-微服务架构图](https://cdn.jsdelivr.net/gh/youminglan/Picture@main/img/20210910201739.jpeg)
 
 - [x] 《分布式基础篇-全栈开发》
 - [x] 《分布式高级篇-微服务架构》

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: 用户管理系统
+# yumail核心配置
+yumail:
+  # 唯一id
+  app-id: 用户管理系统
+  # 邮件配置
+  mail:
+    host: smtp.qq.com
+    username: 592789970@qq.com
+    password: itykedctqtttbcbb
+  # Yumail服务端配置
+  server:
+    # 接入地址（一定要加协议名）
+    url: http://localhost:8085
+  # 强制连接server（连接失败则项目无法启动，默认false）
+  force: true
+server:
+  # 项目端口号
+  port: 8084

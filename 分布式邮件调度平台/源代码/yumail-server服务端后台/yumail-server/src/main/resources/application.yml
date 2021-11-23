@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: yumail-server
+  # redis
+  redis:
+    host: 182.61.59.198
+    port: 6379
+    database: 0
+    password: #
+# yumail核心配置
+yumail:
+  app-id: yumail-server
+  admin:
+    username: admin
+    password: admin
+  mail:
+    host: smtp.mxhichina.com
+    username: yumail@liyupi.top
+    password: #
+server:
+  # 项目端口号
+  port: 8085
+  servlet:
+    context-path: /api/v1
+  tomcat:
+    basedir: tmp
+management:
+  metrics:
+    export:
+      influx:
+        enabled: true
+        db: mydb
+        uri: http://localhost:8086
+        auto-create-db: true
+        connect-timeout: 1s
+        read-timeout: 10s
+        step: 10s
+  endpoints:
+    web:
+      exposure:
+          include: '*'
